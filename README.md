@@ -14,6 +14,13 @@
  * 绕过防火墙通过DNS把数据带出来
  * 等等...
  
+##配置文件:
+ * 配置文件（dns.conf, dnsproxy.conf 两个一样）中的配置项说明
+ * authoritative 主DNSIP
+ * authoritative-port 主DNS端口
+ * chroot /var/empty   配置chroot目录哪怕user是root也只能在此目录操作
+ * user creturn  用什么用户来启用此进程
+ 
 ##注意事项:
 
  * 代码中使用了sqlie3所以编译的时候确保装有sqlite3的库
