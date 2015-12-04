@@ -20,6 +20,7 @@
  * authoritative-port 主DNS端口
  * chroot /var/empty   配置chroot目录哪怕user是root也只能在此目录操作
  * user creturn  用什么用户来启用此进程
+ * recursive 备用DNS IP 下面相关都属于备用
  
 ##注意事项:
 
