@@ -15,4 +15,4 @@
  
 
 ###截图:
-![img]()          
+![img](https://raw.githubusercontent.com/creturn/dnsproxy/master/screens/screen.png)          
